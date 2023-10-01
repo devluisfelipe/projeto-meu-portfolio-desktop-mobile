@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Portfólio</title>
+</head>
+    <body>
+            <main>
+                <div class="wrapper"> <!--Início da div wrapper-->
+
+                    <header>
+                        <video class="back-header" autoplay muted loop>
+                            <source src="./assets/back-header.mp4" tyoe="video/mp4">
+                        </video>
+                        <div class="div-main-menu" id="men">
+                            <div class="div-menu">
+                                <ul class="nav" id="menu">
+                                    <li><a href="#projects">projetos.</a></li>
+                                    <li><a href="#about">sobre.</a></li>
+                                    <li><a href="#skills">habilidades.</a></li>
+                                    <li><a href="#contact">contato.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                    <section id="projects" class="section-1">
+                        <div class="div-title-section-1">
+                            <h3>projetos.</h3>
+                        </div>
+                        <div class="div-page-img-1">
+                            <figure>
+                                <img class="img-project" src="./assets/img-project-1.png" alt="img-project-1">
+                                <figcaption><a>Projeto Site Escola DevClub</a></figcaption>
+                            </figure>
+                            <figure>
+                                <img class="img-project" src="./assets/img-project-2.png" alt="img-project-2">
+                                <figcaption><a>Projeto Site LFG Store</a></figcaption>
+                            </figure>
+                        </div>
+                        <div class="div-page-img-2">
+                            <figure>
+                                <img class="img-project" src="./assets/img-project-4.png" alt="img-project-3">
+                                <figcaption><a>Projeto feito em aula / CSS Parte 1</a></figcaption>
+                            </figure>
+                            <figure>
+                                <img class="img-project" src="./assets/img-project-3.png" alt="img-project-3">
+                                <figcaption><a>Projeto feito em aula / CSS Parte 2</a></figcaption>
+                            </figure>
+                        </div>
+                        <div class="div-page-img-3">
+                            <figure>
+                                <img class="img-project" src="./assets/img-project-5.png" alt="img-project-3">
+                                <figcaption><a>Projeto Software para Mercado em JAVA (Tela Princ. + Tela Ponto de Venda)</a>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img class="img-project" src="./assets/img-project-6.png" alt="img-project-3">
+                                <figcaption><a>Projeto Software para Escola em JAVA (Tela Princ. + Tela Cadastro de Pessoa)</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </section>
+                    <section id="about" class="section-2">
+                        <div class="div-title-section-2">
+                            <h3>sobre.</h3>
+                        </div>
+                        <div class="div-paragraph-1">
+                            <p class="paragraph">
+                                Me chamo Luis Felipe Giovanella, tenho 28 anos e sou de Marques de Souza Rio Grande do Sul.
+                                Iniciei meus estudos na área de TI em janeiro de 2014 no Curso de Técnico em Informática. Nesse
+                                curso não aprendia somente sobre manutenção de hardware, mas sim era mais focado na parte lógica
+                                da TI. Em dezembro de 2016 me formei como Técnico em Informática.
+                            </p>
+                        </div>
+                        <div class="div-paragraph-2">
+                            <p class="paragraph">
+                                Após dois anos, em janeiro de 2018, eu iniciei minha Graduação em Análise e Desenvolvimento de
+                                Sistemas. Também tive disciplinas de Programação, Banco de Dados e Programação Web. No final de
+                                cada trimestre eu desenvolvia um projeto envolvendo todas as disciplinas nele estudadas. Em
+                                dezembro de 2021 me formei como Analista de Sistemas. Ambos os cursos foram feitos na Univates.
+                            </p>
+                        </div>
+                        <div class="div-paragraph-3">
+                            <p class="paragraph">
+                                Por gostar muito de Programação, continuei desenvolvendo alguns projetos pessoais. Mas eu senti
+                                que precisava aprofundar meus conhecimentos na área. Sempre pensava em fazer um curso de
+                                Programação, e passando os storys do instagram, sempre aparecia o Rodolfo falando sobre o
+                                DevClub mesmo sem seguí-lo. Em primeiro momento não dei muita bola, mas cada dia acontecia a
+                                mesma coisa e resolvi mandar um direct pra ele. Como resposta ele falou para mim participar da
+                                missão, assisti as 3 aulas e decidi realizar o curso.
+                            </p>
+                        </div>
+                        <div class="div-paragraph-4">
+                            <p class="paragraph">
+                                Meu objetivo desse curso se concentra em desempenhar uma ótima realização de todo o conteúdo.
+                                Pretendo arrumar um trabalho na área com o intuito de visar o crescimento, tanto empresarial
+                                como pessoal, a fim de enfrentar novos desafios que permitam alavancar minha carreira.
+                            </p>
+                        </div>
+                    </section>
+                    <section id="skills" class="section-3">
+                        <div class="div-title-section-3">
+                            <h3>habilidades.</h3>
+                        </div>
+                        <div class="div-img-logo">
+                            <a onClick="openModalHtml()"><img class="icon-logo" src="./assets/html-logo.png"
+                                    alt="img-logo-html"></a>
+                            <a onClick="openModalCss()"><img class="icon-logo" src="./assets/css3-logo.png"
+                                    alt="img-logo-css"></a>
+                            <a onClick="openModalJava()"><img class="icon-logo" src="./assets/java-logo.png"
+                                    alt="img-logo-java"></a>
+                            <a onClick="openModalPostgres()"><img class="icon-logo" src="./assets/postgres-logo.png"
+                                    alt="img-logo-postgres"></a>
+                        </div>
+                    </section>
+                    <abbr title="Voltar ao topo"><a href="#" id="link-back-top"></a></abbr>
+                    <footer id="contact">
+                        <div class="div-title-footer">
+                            <h3>contato.</h3>
+                        </div>
+                        <div class="div-social-media">
+                            <a href="https://www.instagram.com/luisf.giovanella/" target="_blank"><img
+                                    class="img-icon-social-media" src="./assets/instagram-icon.png"
+                                    alt="img-instagram-icon"></a>
+                            <a href="https://www.linkedin.com/in/luis-felipe-giovanella/" target="_blank"><img
+                                    class="img-icon-social-media" src="./assets/linkedin-icon.png" alt="img-linkedin-icon"></a>
+                            <a href="https://github.com/devluisfelipe" target="_blank"><img class="img-icon-social-media"
+                                    src="./assets/git-hub-icon.png" alt="img-git-hub-icon"></a>
+                        </div>
+                    </footer>
+                    <div class="modal-window-html" id="modal-window-html">
+                        <div class="modal">
+                            <button class="btn-close-modal" id="close">X</button>
+                            <h3 class="title-modal">HTML</h3>
+                            <h3 class="subtitle-modal">Habilidades</h3>
+                            <ul class="list-skills-modal">
+                                <li>Conhecimento dos elementos constitutivos de uma solução computacional em ambiente web;</li>
+                                <li>Implementação de um site;</li>
+                                <li>Identificação de estratégias que favoreçam a acessibilidade e a inclusão digital.</li>
+                            </ul>
+                            <h3 class="subtitle-modal">Objetos de Conhecimento</h3>
+                            <ul>
+                                <li>Busca por soluções para problemas propostos;</li>
+                                <li>Linguagem de marcação HTML;</li>
+                                <li>Protocolos de comunicação;</li>
+                                <li>Conteúdo dinâmico versus conteúdo estático.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-window-css" id="modal-window-css">
+                        <div class="modal">
+                            <button class="btn-close-modal" id="close">X</button>
+                            <h3 class="title-modal">CSS</h3>
+                            <h3 class="subtitle-modal">Habilidades</h3>
+                            <ul class="list-skills-modal">
+                                <li>Acessibilidade incorporada ao design.</li>
+                            </ul>
+                            <h3 class="subtitle-modal">Objetos de Conhecimento</h3>
+                            <ul>
+                                <li>Padrões de formatação e estilização web.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-window-java" id="modal-window-java">
+                        <div class="modal">
+                            <button class="btn-close-modal" id="close">X</button>
+                            <h3 class="title-modal">JAVA</h3>
+                            <h3 class="subtitle-modal">Habilidades</h3>
+                            <ul class="list-skills-modal">
+                                <li>Conhecimento de métodos, técnicas, estratégias e componentes para resolução de problemas;
+                                </li>
+                                <li>Identificação de problemas que tenham solução algorítmica;</li>
+                                <li>Conhecimento do paradigma de programação orientado a objetos;</li>
+                                <li>Implementar qualquer software desktop aplicando uma arquitetura 3-tier;</li>
+                                <li>Integrar, em uma aplicação, de diferentes recursos, como banco de dados, geração de
+                                    relatórios, interface gráfica e lógica de negócio;</li>
+                                <li>Projetar interfaces.</li>
+                            </ul>
+                            <h3 class="subtitle-modal">Objetos de Conhecimento</h3>
+                            <ul>
+                                <li>Paradigma orientado a objetos;</li>
+                                <li>Herança e Polimorfismo;</li>
+                                <li>Estruturação de aplicações desktop;</li>
+                                <li>Classes genéricas para acesso a banco de dados, validação de dados e formatação;</li>
+                                <li>Geração de relatórios;</li>
+                                <li>Cópia de segurança e restauração.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-window-postgres" id="modal-window-postgres">
+                        <div class="modal">
+                            <button class="btn-close-modal" id="close">X</button>
+                            <h3 class="title-modal">PostgreSQL</h3>
+                            <h3 class="subtitle-modal">Habilidades</h3>
+                            <ul class="list-skills-modal">
+                                <li>Reconhecer a estrutura e as instruções da DDL e DML usadas para interagir com um sistema
+                                    gerenciador de banco de dados;</li>
+                                <li>Implementar um modelo de dados lógico em um sistema gerenciador de banco de dados;</li>
+                                <li>Implementar de tarefas automatizadas, utilizando estruturas de programação;</li>
+                                <li>Resolução de problemas de recuperação e manipulação de dados.</li>
+                            </ul>
+                            <h3 class="subtitle-modal">Objetos de Conhecimento</h3>
+                            <ul>
+                                <li>Fundamentos de sistemas de gerência de bancos de dados;</li>
+                                <li>Restrições em bancos de dados;</li>
+                                <li>Linguagem para definição de dados;</li>
+                                <li>Linguagem para manipulação de dados;</li>
+                                <li>Consultas em bancos de dados;</li>
+                                <li>Fundamentos de otimização de consultas;</li>
+                                <li>Programação em bancos de dados.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!--Fim da div wrapper-->
+            </main>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
